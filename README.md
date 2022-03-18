@@ -5,7 +5,7 @@ This is a Nix derivation to build a Docker container to run the GNUnet project.
 To build a Docker layer and load it as an image
 
 ```sh
-docker load < $(nix-build ./gnunet-docker.build.nix
+docker load < $(nix-build ./gnunet-docker.build.nix)
 ```
 
 # Run
